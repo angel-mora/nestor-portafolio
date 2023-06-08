@@ -23,22 +23,6 @@ export default function Home() {
       label: 'BACK TO BLACK',
       path: "/thestripedshop/"
     },
-    {
-      label: 'COLECCION 4',
-      path: "/sanbenedetto/"
-    },
-    {
-      label: 'COLECCION 5',
-      path: "/vetro/"
-    },
-    {
-      label: 'ACBC x ',
-      path: "/acbc-x-sunnei/"
-    },
-    {
-      label: 'Personal ',
-      path: "/photographs/"
-    },
   ]
   return <Layout hideNavigation>
     <Nod title={"Portfolio"}/>
