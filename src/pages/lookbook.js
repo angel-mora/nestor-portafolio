@@ -6,8 +6,8 @@ import Nod from '../components/nod';
 
 export default function SanBenedetto({data: {images}}) {
 
-  return <Layout header={'Back to Black'} next={"/thestripedshop/"}>
-    <Nod title={'Faith Connexion'}/>
+  return <Layout header={' LOOK BOOK Y MOODBOARD'} next={"/backtoblack/"}>
+    <Nod title={'LOOK BOOK Y MOODBOARD'}/>
     <p>
       It was very inspiring to be able to create these shots in one's own home,
       it

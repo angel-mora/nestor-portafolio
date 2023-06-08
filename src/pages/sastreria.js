@@ -6,7 +6,7 @@ import Nod from '../components/nod';
 
 export default function SanBenedetto({data: {images}}) {
    return <Layout header={'Sastreria desestructurada'} next={"/faithconnexion/"}>
-     <Nod title={"Golfo del Tigullio"}/>
+     <Nod title={"sastreria"}/>
     <p>
     En esta colección Néstor Osuna nos presenta un tipo de Sastrería poco común pero más
 adaptada a los tiempos de hoy, una Sastrería Desestructurada y a su vez sin género.

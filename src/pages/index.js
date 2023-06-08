@@ -8,20 +8,20 @@ export default function Home() {
 
   const pages = [
     {
-      label: 'BIOLUMINISCENIA',
-      path: '/cj/'
+      label: 'BOLUMINISCENIA',
+      path: '/boluminiscencia/'
     },
     {
-      label: 'SASTREIA DESESTRUCTURADA-ONGOING',
-      path: '/golfodeltigullio/'
+      label: 'SASTRERIA DESESTRUCTURADA-ONGOING',
+      path: '/sastreria/'
     },
     {
       label: 'COLECCIÓN THE COVEN: LOOK BOOK Y MOODBOARD',
-      path: "/faithconnexion/"
+      path: "/lookbook/"
     },
     {
       label: 'BACK TO BLACK',
-      path: "/thestripedshop/"
+      path: "/backtoblack/"
     },
   ]
   return <Layout hideNavigation>
