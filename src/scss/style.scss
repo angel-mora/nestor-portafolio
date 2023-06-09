@@ -133,8 +133,15 @@ p {
   margin-top: 0.3em;
   margin-bottom: 2em;
   margin-left: 2em;
-  height: 15%;
-  width: 15%;
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+}
+
+
+.sastreria-img {
+  height: 90%;
+  width: 100%;
 }
 
 .general-text {
