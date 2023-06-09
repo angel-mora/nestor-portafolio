@@ -46,19 +46,14 @@ export default function Layout({children, header, hideNavigation, next}) {
         </div>
       </div>
       <div className="col align-self-center text-right">
-        <btn className={'btn btn-text px-3'} onClick={(e) => {
+        <a className={'btn btn-text px-3'} onClick={(e) => {
           e.preventDefault();
 
           window.scrollTo(0, 0);
 
         }}>
-          <svg width="8" height="69" viewBox="0 0 8 69" fill="none"
-               xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M4.35355 0.646446C4.15829 0.451187 3.84171 0.451187 3.64644 0.646446L0.464463 3.82843C0.269201 4.02369 0.269201 4.34027 0.464463 4.53554C0.659725 4.7308 0.976308 4.7308 1.17157 4.53554L4 1.70711L6.82842 4.53554C7.02369 4.7308 7.34027 4.7308 7.53553 4.53554C7.73079 4.34027 7.73079 4.02369 7.53553 3.82843L4.35355 0.646446ZM4.5 69L4.5 1L3.5 1L3.5 69L4.5 69Z"
-                fill="black"/>
-          </svg>
-        </btn>
+          <span className="text-white general-text h4">Go to the Top &#129145;</span>
+        </a>
       </div>
     </footer>
   </div>;
