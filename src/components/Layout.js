@@ -13,8 +13,8 @@ export default function Layout({children, header, hideNavigation, next}) {
     {hideNavigation ||
     <nav className="row pt-5 justify-content-between align-items-center">
       <div className="col">
-        <Link to={'/'} className={'  pl-0 text-decoration-none'}>
-          <img className='logoHeader hover-shadow' alt="logo" src={require('/src/images/logoNestor.png').default} />
+        <Link to={'/'} className={'pl-0 text-decoration-none'}>
+          <img className='logoHeader' alt="logo" src={require('/src/images/logoNestor.png').default} />
         </Link>
       </div>
       {next && next && <div className="col-auto general-text">

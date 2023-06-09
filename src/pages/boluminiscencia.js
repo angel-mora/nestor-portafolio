@@ -22,8 +22,6 @@ export default function Buluminiscencia({data: {images}}) {
         <GatsbyImage
           image={getImage(images.nodes[2])}/>
       </div>
-      
-
       <div className="col-md-4">
         <GatsbyImage
             image={getImage(images.nodes[4])}/>
@@ -36,7 +34,6 @@ export default function Buluminiscencia({data: {images}}) {
         <GatsbyImage
             image={getImage(images.nodes[5])}/>
       </div>
-
       <div className="col-md-4">
         <GatsbyImage
             image={getImage(images.nodes[7])}/>
