@@ -13,7 +13,7 @@ export default function Buluminiscencia({data: {images}}) {
       <div className="col-md-4">
         <GatsbyImage
             image={getImage(images.nodes[0])}/>
-      </div>   
+      </div>
       <div className="col-md-4 position-relative">
         <GatsbyImage
           image={getImage(images.nodes[1])}/>

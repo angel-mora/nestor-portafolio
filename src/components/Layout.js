@@ -13,20 +13,18 @@ export default function Layout({children, header, hideNavigation, next}) {
     {hideNavigation ||
     <nav className="row pt-5 justify-content-between align-items-center">
       <div className="col">
-        <Link to={'/'} className={'  pl-0 text-decoration-none'}
-              style={{fontWeight: 100}}>
-          nestor<br/>
-          osuna       
-           </Link>
+        <Link to={'/'} className={'  pl-0 text-decoration-none'}>
+          <img className='logoHeader hover-shadow' alt="logo" src={require('/src/images/logoNestor.png').default} />
+        </Link>
       </div>
-      {next && next && <div className="col-auto">
-        <Link to={next} className={'text-decoration-none'}>next</Link>
+      {next && next && <div className="col-auto general-text">
+        <Link to={next} className={'text-decoration-none general-text h3 px-3'}>Next →</Link>
       </div>}
     </nav>}
     {header && <header className="row ">
       <div className="col-12 col-md-6 py-3">
         {typeof header === 'string' ?
-            <h1 className={'h3'}>{header}</h1> :
+            <h1 className={'h1'}>{header}</h1> :
             header}
       </div>
     </header>}
@@ -36,13 +34,13 @@ export default function Layout({children, header, hideNavigation, next}) {
         <div className="row">
 
           <div className="col-12">
-            <a className="font-weight-bold small"
+            <a className="font-weight-bold general-text h5"
                href="osunanestor@hotmail.com">osunanestor@hotmail.com</a>
           </div>
-          <div className="col-4 py-1">
+          <div className="col-4 py-1 general-text h5">
             <a href="https://www.instagram.com/nestorozuna/">Instagram</a><br/>
           </div>
-          <div className="col-4 py-1">
+          <div className="col-4 py-1 general-text h5">
             <a href="https://www.linkedin.com/search/results/all/?keywords=nestor%20osuna&origin=RICH_QUERY_SUGGESTION&position=0&searchId=c852b55d-cb19-4a18-93c4-5385011d176e&sid=m)X">Linkedin</a>
           </div>
         </div>

@@ -50,6 +50,7 @@ $line-height-base: 1;
 //@import "~bootstrap/scss/spinners";
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/print";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -126,4 +127,16 @@ p {
   margin-left: 10em;
   height: 60%;
   width: 60%;
+}
+
+.logoHeader {
+  margin-top: 0.3em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  height: 15%;
+  width: 15%;
+}
+
+.general-text {
+ font-family: 'Inter', sans-serif;
 }

@@ -29,15 +29,15 @@ export default function Home() {
     <header className="row py-3">
       <h1 className={'h3 col-6'} style={{lineHeight: '1', fontWeight: 1000}}></h1>
       <div className="col align-self-center text-right">
-        <Link to={'/about'}>about</Link>
+        <Link to={'/about'}>About</Link>
       </div>
     </header>
     <div className="row">
-      <div className="col-12 col-lg-6 border border-dark border-left-0
+      <div className="col-12 col-sm-12 col-md-12 col-lg-6 border border-dark border-left-0
         border-bottom-0 d-flex flex-column justify-content-between"
            style={{minHeight: '65vh'}}>
         <div className={''}>
-        <img className='logo' src={require('/src/images/logoNestor.png').default} />
+        <img className='logo' alt="logo" src={require('/src/images/logoNestor.png').default} />
         </div>
       </div>
       <nav className="col-12 col-lg-6 offset-lg-6">
