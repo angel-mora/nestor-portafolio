@@ -6,19 +6,15 @@ import {Helmet} from 'react-helmet';
 export default function Layout({children, header, hideNavigation, next}) {
 
   return <div className={'container-fluid'}>
-    <Helmet>
-      <meta name="google-site-verification"
-            content="MSonG5T7-hyuQ4Y4_Trxd9nxmERW88MO0KTE84quymo"/>
-    </Helmet>
     {hideNavigation ||
-    <nav className="row pt-5 justify-content-between align-items-center">
-      <div className="col">
+    <nav className="row pt-5">
+      <div className="col px-2">
         <Link to={'/'} className={'pl-0 text-decoration-none'}>
           <img className='logoHeader' alt="logo" src={require('/src/images/logoNestor.png').default} />
         </Link>
       </div>
-      {next && next && <div className="col-auto general-text">
-        <Link to={next} className={'text-decoration-none general-text h3 px-3'}>Next →</Link>
+      {next && next && <div className="col-auto general-text mt-2">
+        <Link to={next} className={'text-decoration-none general-text h5  px-3'}>Next →</Link>
       </div>}
     </nav>}
     {header && <header className="row ">
@@ -52,7 +48,7 @@ export default function Layout({children, header, hideNavigation, next}) {
           window.scrollTo(0, 0);
 
         }}>
-          <span className="text-white general-text h4">Go to the Top &#129145;</span>
+          <span className="text-white general-text h1">&#129145;</span>
         </a>
       </div>
     </footer>

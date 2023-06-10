@@ -9,7 +9,7 @@ export default function Home({data: {profile}}) {
       header={<h1 className={'h3'} style={{lineHeight: 1}}></h1>}>
     <div className="row">
       <div className="col-12 col-lg-8 border-top border-dark ">
-        <p className={'pt-4'}>Nació en Sinaloa. En el 2007 se fue a vivir a Paris, una ciudad que ama porque ahi se llena de energía e inspiración. Se fue a aprender un nuevo idioma y a descrubrir su
+        <p className="pt-4 h5 general-text">Nació en Sinaloa. En el 2007 se fue a vivir a Paris, una ciudad que ama porque ahi se llena de energía e inspiración. Se fue a aprender un nuevo idioma y a descrubrir su
          cultura pero también con el firme propósito de colaborar en la industria de la moda. "En Paris me siento en mi
          habitat natural, el universo de la moda el cual llevo desarrollando desde hace 15 años" comenta Nestor Osuna.
 
@@ -32,12 +32,12 @@ export default function Home({data: {profile}}) {
 
       </div>
       <div className="col-12 col-lg-4 border-dark border-left " >
-        <p className={'small'}>CDMX / Mexico <br/>
+        <p className={'h4'}>CDMX / Mexico <br/>
           Para más información:<br/>
           <a className="font-weight-bold"
              href="mailto:osunanestor@hotmail.com">osunanestor@hotmail.com</a>
         </p>
-        <p className={'small'}>
+        <p className={'h4'}>
           <a href="https://www.instagram.com/nestorosuna_">@nestorosuna_</a><br/>
         </p>
       </div>
@@ -49,7 +49,7 @@ export default function Home({data: {profile}}) {
       </div>
 
       <div className="col-12 col-md border-dark border-left h-100">
-        <p className=" font-weight-bold"><a
+        <p className="h4 general-text font-weight-bold"><a
             href={'/NestorOsuna_Pres2017_LinkstoPress.pdf'} download>Press</a>
           <br/>
         </p>
