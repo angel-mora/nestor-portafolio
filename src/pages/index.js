@@ -8,10 +8,6 @@ export default function Home() {
 
   const pages = [
     {
-      label: 'BOLUMINISCENIA',
-      path: '/boluminiscencia/'
-    },
-    {
       label: 'SASTRERIA DESESTRUCTURADA-ONGOING',
       path: '/sastreria/'
     },
@@ -22,6 +18,10 @@ export default function Home() {
     {
       label: 'BACK TO BLACK',
       path: "/backtoblack/"
+    },
+    {
+      label: 'BOLUMINISCENIA',
+      path: '/boluminiscencia/'
     },
   ]
   return <Layout hideNavigation>

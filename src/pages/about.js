@@ -32,10 +32,11 @@ export default function Home({data: {profile}}) {
 
       </div>
       <div className="col-12 col-lg-4 border-dark border-left " >
-        <p className={'h4'}>CDMX / Mexico <br/>
+        <p className={'h4'}>CDMX / México <br/>
           Para más información:<br/>
-          <a className="font-weight-bold"
-             href="mailto:osunanestor@hotmail.com">osunanestor@hotmail.com</a>
+          <a class="font-weight-bold general-text h5" href="mailto:nestor.osuna.2014@gmail.com">
+            nestor.osuna.2014@gmail.com
+          </a>
         </p>
         <p className={'h4'}>
           <a href="https://www.instagram.com/nestorosuna_">@nestorosuna_</a><br/>

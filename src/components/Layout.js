@@ -30,8 +30,9 @@ export default function Layout({children, header, hideNavigation, next}) {
         <div className="row">
 
           <div className="col-12">
-            <a className="font-weight-bold general-text h5"
-               href="osunanestor@hotmail.com">osunanestor@hotmail.com</a>
+            <a class="font-weight-bold general-text h5" href="mailto:nestor.osuna.2014@gmail.com">
+               nestor.osuna.2014@gmail.com
+            </a>
           </div>
           <div className="col-4 py-1 general-text h5">
             <a href="https://www.instagram.com/nestorozuna/">Instagram</a><br/>
