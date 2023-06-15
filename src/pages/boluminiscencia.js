@@ -6,7 +6,7 @@ import Nod from '../components/nod';
 
 export default function Buluminiscencia({data: {images}}) {
 
-  return <Layout header={'BOLUMINISCENCIA'} next={"/sastreria/"}>
+  return <Layout header={'BOLUMINISCENCIA'}>
     <Nod title={'BOLUMINISCENCIA'}/>
     
     <div className="row project-gallery">

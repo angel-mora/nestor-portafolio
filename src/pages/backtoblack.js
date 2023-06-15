@@ -5,7 +5,7 @@ import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 import Nod from '../components/nod';
 
 export default function TheStripedShop({data: {images}}) {
-  return <Layout header={'Back to Black'}>
+  return <Layout header={'Back to Black'} next={"/boluminiscencia/"}>
     <Nod title={'Back to Black'}/>
     <p className="h5 general-text">
       Back to black. Its essence is deeply connected with the theme of the
