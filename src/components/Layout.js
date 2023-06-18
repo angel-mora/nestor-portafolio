@@ -34,7 +34,7 @@ export default function Layout({children, header, hideNavigation, next}) {
             </a>
           </div>
           <div className="col-4 py-1 general-text h5">
-            <a href="https://www.instagram.com/nestorozuna/">Instagram</a><br/>
+            <a href="https://www.instagram.com/nestorosuna_">Instagram</a><br/>
           </div>
           <div className="col-4 py-1 general-text h5">
             <a href="https://www.linkedin.com/search/results/all/?keywords=nestor%20osuna&origin=RICH_QUERY_SUGGESTION&position=0&searchId=c852b55d-cb19-4a18-93c4-5385011d176e&sid=m)X">Linkedin</a>
