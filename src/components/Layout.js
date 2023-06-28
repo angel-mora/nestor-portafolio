@@ -29,7 +29,7 @@ export default function Layout({children, header, hideNavigation, next}) {
         <div className="row">
 
           <div className="col-12">
-            <a class="font-weight-bold general-text h5" href="mailto:nestor.osuna.2014@gmail.com">
+            <a className="font-weight-bold general-text h5" href="mailto:nestor.osuna.2014@gmail.com">
                nestor.osuna.2014@gmail.com
             </a>
           </div>
@@ -37,7 +37,7 @@ export default function Layout({children, header, hideNavigation, next}) {
             <a href="https://www.instagram.com/nestorosuna_">Instagram</a><br/>
           </div>
           <div className="col-4 py-1 general-text h5">
-            <a href="https://www.linkedin.com/search/results/all/?keywords=nestor%20osuna&origin=RICH_QUERY_SUGGESTION&position=0&searchId=c852b55d-cb19-4a18-93c4-5385011d176e&sid=m)X">Linkedin</a>
+            <a href="https://www.linkedin.com/in/nestor-osuna-41332110">Linkedin</a>
           </div>
         </div>
       </div>

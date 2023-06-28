@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import {graphql} from 'gatsby';
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
+import pdfFile from '../../static/NestorOsuna_Pres2017_LinkstoPress.pdf';
 
 export default function Home({data: {profile}}) {
 
@@ -34,7 +35,7 @@ export default function Home({data: {profile}}) {
       <div className="col-12 col-lg-4 border-dark border-left " >
         <p className={'h4'}>CDMX / México <br/>
           Para más información:<br/>
-          <a class="font-weight-bold general-text h5" href="mailto:nestor.osuna.2014@gmail.com">
+          <a className="font-weight-bold general-text h5" href="mailto:nestor.osuna.2014@gmail.com">
             nestor.osuna.2014@gmail.com
           </a>
         </p>
@@ -50,10 +51,7 @@ export default function Home({data: {profile}}) {
       </div>
 
       <div className="col-12 col-md border-dark border-left h-100">
-        <p className="h4 general-text font-weight-bold"><a
-            href={'/NestorOsuna_Pres2017_LinkstoPress.pdf'} download>Press</a>
-          <br/>
-        </p>
+        <a className="h4 general-text font-weight-bold" href={pdfFile} download="NestorOsuna_Pres2017_LinkstoPress.pdf">Press</a>
       </div>
 
     </div>

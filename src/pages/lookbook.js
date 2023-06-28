@@ -3,18 +3,15 @@ import Layout from '../components/Layout';
 import {graphql} from 'gatsby';
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 import Nod from '../components/nod';
+import pdfFile from '../../static/Presentacion31.pdf';
 
 export default function SanBenedetto({data: {images}}) {
 
   return <Layout header={' LOOK BOOK Y MOODBOARD'} next={"/backtoblack/"}>
     <Nod title={'LOOK BOOK Y MOODBOARD'}/>
-    <p className="h5 general-text">
-      It was very inspiring to be able to create these shots in one's own home,
-      it
-      really helped me to take into account the spaces and light, trying to get
-      shots that could reflect the brand. In this job there was the creation of
-      outfits, study of positions, study of environments
-    </p>
+    <a className="h5 general-text" href={pdfFile} download="Presentacion31.pdf"> 
+      PDF LOOK BOOK
+    </a>
     <div className="row project-gallery" id="fc-pics-container">
       <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
         <GatsbyImage image={getImage(images.nodes[18])} alt="lookbook-image" />

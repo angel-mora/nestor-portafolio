@@ -3,15 +3,13 @@ import Layout from '../components/Layout';
 import {graphql} from 'gatsby';
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 import Nod from '../components/nod';
+import pdfFile from '../../static/Presentacion3.pdf';
 
 export default function TheStripedShop({data: {images}}) {
   return <Layout header={'Back to Black'} next={"/boluminiscencia/"}>
     <Nod title={'Back to Black'}/>
-    <p className="h5 general-text">
-      Back to black. Its essence is deeply connected with the theme of the
-      journey; starting from finding it, a special treasure hunt organized to
-      celebrate the opening!
-    </p>
+
+    <a href={pdfFile} className="h5 general-text" download="Presentacion3.pdf">PDF BLACK TO BLACK</a>
 
     <div className="row  justify-content-center project-gallery">
       <div className="col-12 col-md-4">
